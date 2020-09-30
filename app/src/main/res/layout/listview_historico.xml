@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tipo"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:textSize="24dp"
+            android:padding="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/pet"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:textSize="24dp"
+            android:padding="10dp"
+            android:layout_toRightOf="@+id/tipo"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:padding="10dp"
+        />
+
+
+
+
+</LinearLayout>

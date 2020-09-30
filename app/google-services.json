@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "365444435125",
+    "firebase_url": "https://peteazy20.firebaseio.com",
+    "project_id": "woof",
+    "storage_bucket": "peteazy20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365444435125:android:ef87a7c5b2f2e6c4",
+        "android_client_info": {
+          "package_name": "com.woof.woofapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365444435125-s9c0o8v8fbe97sgk9utcjuqkhj4gr4td.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqWD-NJDAyKgq5PZVMVCfxqMCxjvrPAro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365444435125-s9c0o8v8fbe97sgk9utcjuqkhj4gr4td.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

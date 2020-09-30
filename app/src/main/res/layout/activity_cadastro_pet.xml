@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rosa"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_cadastreseuamigo2"/>
+    <TextView
+        android:text="Nome"
+        android:textSize="12dp"
+        android:textColor="@color/branco"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/textView6"/>
+    <EditText
+        android:id="@+id/editCadastroPetNome"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:textSize="12dp"
+        android:textColor="@color/branco"
+        android:textColorHint="@color/branco"
+        android:textColorHighlight="@color/branco"/>
+
+        <TextView
+        android:text="Tipo"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/branco"
+        android:textSize="12dp"
+        android:layout_height="wrap_content" android:id="@+id/textView4"/>
+    <Spinner
+        android:id="@+id/spinnerTipoAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/shapeemail"/>
+
+    <TextView
+        android:text="Raça"
+        android:textSize="12dp"
+        android:textColor="@color/branco"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"/>
+    <Spinner
+        android:id="@+id/spinnerRaca"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/branco"
+        android:foregroundTint="@color/branco"
+        android:background="@drawable/shapeemail"/>
+
+    <TextView
+        android:text="Sexo"
+        android:textSize="12dp"
+        android:textColor="@color/branco"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupSexoPet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioPetFemea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:backgroundTint="@color/branco"
+            android:buttonTint="@color/branco"
+            android:textColor="@color/branco"
+            android:text="Fêmea" />
+
+        <RadioButton
+            android:id="@+id/radioPetMacho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/branco"
+            android:layout_weight="1"
+            android:backgroundTint="@color/branco"
+            android:buttonTint="@color/branco"
+            android:text="Macho" />
+    </RadioGroup>
+
+    <TextView
+        android:text="Data De Nascimento"
+        android:textSize="12dp"
+        android:textColor="@color/branco"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/textView8"/>
+
+    <EditText
+        android:id="@+id/editCadastroPetNascimento"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_calendar_icon"
+        android:drawablePadding="10dp"
+        android:inputType="date"
+
+        android:padding="15dp"
+        android:textColor="@color/branco"
+        android:textColorHighlight="@color/branco"
+        android:textColorHint="@color/branco"
+        android:textSize="12dp" />
+
+    <TextView
+        android:text="O Pet Possui Alguma Deficiecia ? "
+        android:textSize="12dp"
+        android:textColor="@color/branco"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/textView9"/>
+
+    <EditText
+        android:id="@+id/editCadastroPetObservacoes"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_writing"
+        android:drawablePadding="10dp"
+
+
+        android:textSize="12dp"
+        android:textColor="@color/branco"
+        android:textColorHint="@color/branco"
+        android:textColorHighlight="@color/branco"/>
+
+    <Button
+        android:text="Proximo"
+        android:layout_width="wrap_content"
+        android:textColor="@color/rosa"
+        android:layout_height="wrap_content"
+        android:id="@+id/butt_cadastrar_pet"
+        android:background="@color/branco"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        />
+
+</LinearLayout>
+
+
+

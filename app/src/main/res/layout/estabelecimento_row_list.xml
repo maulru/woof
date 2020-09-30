@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="100dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/azul23"
+
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/nome"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/holyfat"/>
+
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="@dimen/thumbnail"
+                android:layout_height="@dimen/thumbnail"
+                android:layout_marginTop="30dp"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:text="(11)123456789"
+                android:id="@+id/tipo"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"/>
+
+
+            <TextView
+                android:id="@+id/endereco"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Av Rudge, 365"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="14dp"/>
+
+
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:text="(11)123456789"
+                android:id="@+id/telefone"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"/>
+
+
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:text="(11)123456789"
+                android:id="@+id/idt"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:visibility="gone"/>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/ic_bookmark_24dp" />
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

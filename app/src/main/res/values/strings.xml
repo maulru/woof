@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Woof App</string>
+    <string name="title_activity_maps">Woof Map</string>
+    <string name="title_activity_maps_rastrear">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_teste_filtro_mapa">Map</string>
+    <string name="empresa">EmpresaWTF</string>
+    <string name="facebook_app_id">344708453072022</string>
+    <string name="fb_login_protocol_scheme">fb344708453072022</string>
+
+
+    <string name="navigation_drawer_open1">Open navigation drawer</string>
+    <string name="navigation_drawer_close1">Close navigation drawer</string>
+    <string name="title_activity_visualizar_servicos">VisualizarServicosActivity</string>
+
+
+    <string name="toolbar_title">Procure Estabelecimento ...</string>
+    <string name="toolbar_title_ong">Procure ONG ...</string>
+    <string name="toolbar_title_usuario">Procure Usuarios ...</string>
+
+    <string name="action_search">Pesquise</string>
+    <string name="search_hint">Digite o Nome</string>
+    <string name="section_format">Page %1$d</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">Proximo</string>
+    <string name="skip">Pular</string>
+    <string name="start">Entendi</string>
+    <string name="slide_1_title">Gerencie seu Pet</string>
+    <string name="slide_1_desc">Você pode acompanhar as informações de seu pet</string>
+    <string name="slide_2_title">Finder Locais</string>
+    <string name="slide_2_desc">Busque as clinicas/petshops para seu pet</string>
+    <string name="slide_3_title">Informações Emergenciais</string>
+    <string name="slide_3_desc">Acesse as informações necessarias de forma rapida</string>
+
+    <string name="estrelinhas">1</string>
+
+
+</resources>

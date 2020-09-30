@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/amarelo"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:padding="20dp">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/ic_woofteste"/>
+
+    <EditText
+        android:id="@+id/cc"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Email"
+            android:textSize="12dp"
+            android:textColor="@color/branco"
+            android:textColorHint="@color/branco"
+            android:textColorHighlight="@color/branco"/>
+
+    <EditText
+        android:id="@+id/dd"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/shapeemail"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="12dp"
+            android:textColor="@color/branco"
+            android:textColorHint="@color/branco"
+            android:textColorHighlight="@color/branco"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@+id/text_esqueceu_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+            android:drawablePadding="6dp"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="Esqueceu a Senha?"
+            android:textColor="@color/branco" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/gg"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Login"
+            android:shadowColor="@android:color/transparent"
+            android:textColor="@color/branco"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shapesignup"/>
+
+
+    <Button
+        android:id="@+id/cadastre"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapelogin"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Cadastre-se"
+        android:textColor="@color/amarelo"
+        android:textSize="9dp" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="185dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp" />
+
+
+
+
+</LinearLayout>

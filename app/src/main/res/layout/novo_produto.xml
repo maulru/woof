@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/idLayoutRegistrar"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Cadastrar Produto"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            />
+
+
+        <EditText
+            android:id="@+id/nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome"
+            />
+
+        <EditText
+            android:id="@+id/categoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Categoria"
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/codigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="Código" />
+
+            <Button
+                android:id="@+id/btn_imagem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:text="Imagem"
+                android:onClick="showFileChooser"
+
+                />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/empresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Empresa"
+            />
+        <EditText
+            android:id="@+id/preco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Preco"
+            />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/briandrugs"
+        android:layout_gravity="center"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:onClick="cadastrar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/colorPrimaryDark"
+        />
+
+</RelativeLayout>

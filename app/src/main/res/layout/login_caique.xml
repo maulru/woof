@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/amarelowoof"
+    android:layout_height="match_parent"
+    tools:context=".login_caique" tools:layout_editor_absoluteY="25dp">
+
+
+    <ImageView
+        android:id="@+id/hh"
+        android:src="@drawable/logo"
+        android:layout_width="242dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/dd"
+        app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/gg"
+        android:layout_width="204dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="49dp"
+        android:src="@drawable/botao_login"
+        app:layout_constraintBottom_toBottomOf="@+id/login_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dd"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="148dp"
+        app:layout_constraintBottom_toTopOf="@+id/cadastre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+      />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="185dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/cadastre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button"
+        app:layout_constraintVertical_bias="0.014" />
+
+
+    <EditText
+        android:id="@+id/cc"
+        android:layout_width="290dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="248dp"
+        android:hint="email"
+
+        app:layout_constraintEnd_toEndOf="@+id/dd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dd"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/dd"
+        android:layout_width="290dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="44dp"
+        android:hint="senha"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hh" />
+
+
+
+
+
+    <Button
+
+        android:text="Cadastre-se"
+        android:textSize="17dp"
+        android:textColor="@color/amarelowoof"
+        android:textAllCaps="false"
+        android:layout_width="173dp"
+        android:layout_height="0dp"
+        android:id="@+id/cadastre"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+
+        android:layout_marginEnd="116dp" app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="116dp"/>
+
+</android.support.constraint.ConstraintLayout>

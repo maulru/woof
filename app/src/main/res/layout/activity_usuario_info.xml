@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/id"
+    android:visibility="gone"
+        android:textSize="25sp"
+        android:layout_alignBottom="@+id/textView69"
+        android:layout_toRightOf="@+id/textView69"
+        android:layout_toEndOf="@+id/textView69"
+        android:textColor="#333333" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/id_nome"
+        android:textSize="25sp"
+        android:layout_alignBottom="@+id/textView69"
+        android:layout_toRightOf="@+id/textView69"
+        android:layout_toEndOf="@+id/textView69"
+        android:textColor="#333333" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/id_email"
+        android:textSize="25sp"
+        android:layout_alignBottom="@+id/textView69"
+        android:layout_toRightOf="@+id/textView69"
+        android:layout_toEndOf="@+id/textView69"
+        android:textColor="#333333" />
+
+</LinearLayout>

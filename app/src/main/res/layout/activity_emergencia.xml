@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="fill_parent"
+            android:layout_height="77dp"
+            android:layout_marginTop="1dp"
+            android:adjustViewBounds="false"
+            android:baselineAligned="false"
+            android:cropToPadding="false"
+            android:src="@drawable/doguinho" />
+
+
+        <Button
+            android:id="@+id/btnVacinas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#df7373"
+            android:text="Vacinas"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/btnHistorico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#df7373"
+            android:text="Historico de Consultas"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/btnDados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#df7373"
+            android:text="Dados do Pet"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

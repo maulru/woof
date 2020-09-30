@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440dp</dimen>
+    <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="abc_dialog_fixed_width_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_width_minor" type="dimen">90%</item>
+    <item name="abc_dialog_min_width_major" type="dimen">55%</item>
+    <item name="abc_dialog_min_width_minor" type="dimen">80%</item>
+    <dimen name="drawer_layout_width">320dp</dimen>
+    <dimen name="userBackground_layout_height">160dp</dimen>
+    <dimen name="userData_layout_height">56dp</dimen>
+    <dimen name="userData_layout_marginBottom">8dp</dimen>
+    <dimen name="userEmail_layout_marginLeft">16dp</dimen>
+    <dimen name="userEmail_textSize">14sp</dimen>
+    <dimen name="userName_layout_marginLeft">16dp</dimen>
+    <dimen name="userName_textSize">14sp</dimen>
+    <dimen name="userPhotoTree_layout_height">40dp</dimen>
+    <dimen name="userPhotoTree_layout_marginRight">16dp</dimen>
+    <dimen name="userPhotoTree_layout_width">40dp</dimen>
+    <dimen name="userPhotoTwo_layout_height">40dp</dimen>
+    <dimen name="userPhotoTwo_layout_marginRight">16dp</dimen>
+    <dimen name="userPhotoTwo_layout_width">40dp</dimen>
+    <dimen name="userPhoto_layout_height">64dp</dimen>
+    <dimen name="userPhoto_layout_marginLeft">16dp</dimen>
+    <dimen name="userPhoto_layout_marginTop">16dp</dimen>
+    <dimen name="userPhoto_layout_width">64dp</dimen>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="Base.Theme.AppCompat.Dialog.FixedSize"/>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="Base.Theme.AppCompat.Light.Dialog.FixedSize"/>
+    <style name="Base.Theme.MaterialComponents.DialogWhenLarge" parent="Base.Theme.MaterialComponents.Dialog.FixedSize"/>
+    <style name="Base.Theme.MaterialComponents.Light.DialogWhenLarge" parent="Base.Theme.MaterialComponents.Light.Dialog.FixedSize"/>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.igorg.woof.views.HomeUserActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <com.dd.morphingbutton.MorphingButton
+            android:id="@+id/btnMorph"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mapa"
+            android:textColor="#ffff"
+            android:background="@color/botao2"
+            />
+
+        <Button
+            android:id="@+id/ajude"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingLeft="70dp"
+            android:gravity="left|center_vertical"
+            android:text="Ajude os Animais"
+            android:textColor="#ffff"
+            android:background="@color/botao2"
+            />
+
+        <Button
+            android:id="@+id/emergencia"
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingLeft="70dp"
+            android:gravity="left|center_vertical"
+            android:text="Emergencia"
+            android:textColor="#ffff"
+            android:background="@color/botao1"
+            app:layout_dodgeInsetEdges="bottom"/>
+
+
+    </LinearLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:background="@android:color/holo_blue_light"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:layout_insetEdge="bottom">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:text="kkkkkk"
+        android:textSize="16sp" />
+
+</android.support.v4.widget.NestedScrollView>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/bottom_sheet1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@android:color/holo_blue_light"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="0dp"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        app:layout_insetEdge="bottom">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:text="wwwwwwwwwwwwwwwwww"
+            android:textSize="16sp" />
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65a9ec"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Evento"
+                    android:id="@+id/evento"
+                    android:textColor="#ECF0F1"
+                    android:textSize="30sp"
+                    android:background="#ffe74c3c"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="10dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:textStyle="bold|italic" />
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:id="@+id/LinearLayout123">
+
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Pet: "
+                            android:id="@+id/textView69"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:textColor="#333333" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text=""
+                            android:id="@+id/pet"
+                            android:textSize="25sp"
+                            android:layout_alignBottom="@+id/textView69"
+                            android:layout_toRightOf="@+id/textView69"
+                            android:layout_toEndOf="@+id/textView69"
+                            android:textColor="#333333" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Dia: "
+                            android:id="@+id/textView23"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:textColor="#333333" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text=""
+                            android:id="@+id/dia"
+                            android:textSize="25sp"
+                            android:layout_alignBottom="@+id/textView23"
+                            android:layout_toRightOf="@+id/textView23"
+                            android:layout_toEndOf="@+id/textView23"
+                            android:textColor="#333333" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Horario: "
+                            android:id="@+id/textView37"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:textColor="#333333" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text=""
+                            android:id="@+id/horario"
+                            android:textSize="25sp"
+                            android:layout_alignBottom="@+id/textView37"
+                            android:layout_toRightOf="@+id/textView37"
+                            android:layout_toEndOf="@+id/textView37"
+                            android:textColor="#333333" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="10dp">
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="15dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Local: "
+                            android:id="@+id/textView36"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:textColor="#333333" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text=""
+                            android:id="@+id/nome_estabelecimento"
+                            android:textSize="25sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/textView36"
+                            android:layout_toEndOf="@+id/textView36"
+                            android:textColor="#333333" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="15dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Endereço: "
+                            android:id="@+id/textView3"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:textColor="#333333" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text=""
+                            android:id="@+id/endereco"
+                            android:textSize="25sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/textView3"
+                            android:layout_toEndOf="@+id/textView3"
+                            android:textColor="#333333" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="15dp">
+
+
+
+
+                    </RelativeLayout>
+
+
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="15dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Status: "
+                            android:id="@+id/textView20"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:textColor="#333333" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text=""
+                            android:id="@+id/status"
+                            android:textSize="25sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/textView20"
+                            android:layout_toEndOf="@+id/textView20"
+                            android:textColor="#333333" />
+
+
+                    </RelativeLayout>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Observação: "
+                        android:id="@+id/textView610"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#333333" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text=""
+                        android:id="@+id/observacao"
+                        android:textSize="25sp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textView3"
+                        android:layout_toEndOf="@+id/textView3"
+                        android:textColor="#333333" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/avaliacao"
+                        android:textSize="25sp"
+                        android:layout_alignParentTop="true"
+                        android:textColor="#333333"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@+id/estrela"
+                        android:layout_toEndOf="@+id/estrela"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/estrela"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:background="@drawable/star"/>
+
+
+                    <Button
+                        android:text="Alterar observação"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textClass"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="34dp"
+                        android:id="@+id/buttonUpdate" />
+
+                    <Button
+                        android:text="Cancelar serviço"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/buttonUpdate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="7dp"
+                        android:id="@+id/buttonDelete" />
+
+                    <Button
+                        android:text="Avalie"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/buttonUpdate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="7dp"
+                        android:id="@+id/avaliar" />
+
+
+                    <Button
+                        android:text="Detalhes do Atendimento"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/buttonUpdate"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="7dp"
+                        android:id="@+id/detalhes" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

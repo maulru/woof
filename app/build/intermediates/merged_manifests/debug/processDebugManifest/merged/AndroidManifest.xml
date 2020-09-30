@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.woof.woofapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="com.example.igorg.woof.views.Aplicacao"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/iconewooffff"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconewooffff"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.igorg.woof.views.AgendamentoTestActivity" />
+        <activity android:name="com.example.igorg.woof.views.VisualizarMinhasEmpresasActivity" />
+        <activity android:name="com.example.igorg.woof.views.CadastroEstabelecimentoNovo" />
+        <activity android:name="com.example.igorg.woof.views.CadastroEstabelecimentoFoto" />
+        <activity android:name="com.example.igorg.woof.views.EscolheServicoActivity" />
+        <activity android:name="com.example.igorg.woof.views.RecuperaSenhaActivity" />
+        <activity android:name="com.example.igorg.woof.views.CadastroVacinaActivity" />
+        <activity android:name="com.example.igorg.woof.views.CadastroServicoActivity" />
+        <activity android:name="com.example.igorg.woof.views.VisualizarAtendimentoActivity" />
+        <activity android:name="com.example.igorg.woof.views.VisualizarAtendimentosActivity" />
+        <activity android:name="com.example.igorg.woof.views.VisualizarServicosActivity" />
+        <activity android:name="com.example.igorg.woof.views.VisualizarServicoActivity" />
+        <activity android:name="com.example.igorg.woof.views.VisualizarPetActivity" />
+        <activity android:name="com.example.igorg.woof.views.BuscarEstabelecimentoActivity" />
+        <activity android:name="com.example.igorg.woof.views.CadastroEstabalecimentoActivity" />
+        <activity android:name="com.example.igorg.woof.views.CadastroPetActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="cct.com.woof.woofapp"
+                    android:scheme="fbconnect" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.igorg.woof.infoview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.LoginActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.example.igorg.woof.views.ListagemEstabelecimentosActivity"
+            android:parentActivityName="com.example.igorg.woof.views.HomeUserActivity" />
+        <activity
+            android:name="com.example.igorg.woof.views.HomeEmpresaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/empresa" />
+        <activity
+            android:name="com.example.igorg.woof.views.ListagemONGActivity"
+            android:parentActivityName="com.example.igorg.woof.views.HomeUserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ong" />
+        <activity
+            android:name="com.example.igorg.woof.views.HomeUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.RegistrarHorarioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.CalendarioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.CadastroAnimalAbandonadoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.AgendarBanhoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.AgendarConsultaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.AvalieActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.MapsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.Update_Historico"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.AgendarConsulta_Mapa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.AgendarBanho_Mapa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.ConfirmarAgendamentoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.HistoricoIndividualActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.HistoricoServicosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.HistoricoIndividualEmpresaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.UpdateHistoricoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.CalendarioEmpresaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.GerenciarHorariosDisponiveisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.DetalhesServicosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.FinalizarServicoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.UsuarioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.MapsAnimal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.VisualizarPetsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.CadastroUsuarioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.ListagemUsuarioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.Ajude"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.CadastroUsuarioNovo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.VIsualizarPerfilActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.AgendarConsultaEmpresa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.RegistrarHorarioPetshop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.AgendarBanhoEmpresa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.HorariosDisponiveisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.Pesquisa_HorariosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.Pesquisa_AgendamentoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.Agendamentos_Visualizacao_Empresa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.igorg.woof.views.HistoricoServicosEmpresa"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.igorg.woof.views.QuemSomos" />
+        <activity android:name="com.example.igorg.woof.views.CadastroUsuarioFoto" />
+        <activity
+            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/EasyPermissions.Transparent" />
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+
+        <service
+            android:name="net.gotev.uploadservice.UploadService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity android:name="com.facebook.CustomTabMainActivity" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.woof.woofapp.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.woof.woofapp.com.squareup.picasso"
+            android:exported="false" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="com.woof.woofapp.FacebookInitProvider"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

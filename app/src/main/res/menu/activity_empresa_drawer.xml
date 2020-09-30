@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"/>
+
+
+    <item
+        android:id="@+id/nav_notificacoes"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Agendamentos" />
+
+    <item
+        android:id="@+id/nav_horarios"
+        android:icon="@drawable/ic_calendar_icon"
+        android:title="Meus horários" />
+
+    <item
+        android:id="@+id/nav_home_back_user"
+        android:icon="@drawable/ic_back_button"
+        android:title="Voltar para home de usuário" />
+
+
+
+</menu>

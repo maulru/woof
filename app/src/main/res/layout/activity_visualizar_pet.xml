@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.igorg.woof.views.VisualizarPetActivity"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:orientation="vertical">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/amarelo">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView5"
+                android:layout_width="128dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/dog"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/pet_nome"
+                android:layout_width="150dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="77dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_auradonome"
+                android:text="Nome do pet"
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView5"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/pet_tipo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="77dp"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:background="@drawable/ic_auradonome"
+                android:text="Tipo do pet"
+                android:textAlignment="center"
+                app:layout_constraintStart_toEndOf="@+id/imageView5"
+                app:layout_constraintTop_toBottomOf="@+id/pet_nome" />
+
+            <TextView
+                android:id="@+id/pet_raca"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="77dp"
+                android:layout_marginTop="8dp"
+                android:text="Raça do pet"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:background="@drawable/ic_auradonome"
+                app:layout_constraintStart_toEndOf="@+id/imageView5"
+                app:layout_constraintTop_toBottomOf="@+id/pet_tipo" />
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/amarelaaba"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="@android:color/black"
+        >
+
+    <android.support.design.widget.TabItem
+        android:id="@+id/tabAgenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agenda" />
+
+    <android.support.design.widget.TabItem
+        android:id="@+id/tabVacinas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vacinas" />
+
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65a9ec"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/holyfat"
+        android:text="Gerenciar Horarios"
+        android:textColor="@color/branco"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/disponiveis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shapelogin"
+        android:backgroundTint="@color/rosa"
+        android:drawableRight="@drawable/ic_loupe"
+        android:fontFamily="@font/holyfat"
+        android:gravity="left|center_vertical"
+        android:text="Horarios Disponiveis"
+        android:textColor="#ffff"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/cadastrar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shapelogin"
+        android:backgroundTint="@color/amarelo"
+        android:drawableRight="@drawable/ic_clips"
+        android:fontFamily="@font/holyfat"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Cadastrar novos horarios"
+        android:textColor="#ffff"
+        android:textSize="40sp" />
+
+
+
+</LinearLayout>

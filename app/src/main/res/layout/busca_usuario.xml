@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <ListView
+        android:id="@+id/lv_id"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+    <ListView
+        android:id="@+id/lv_nome"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+    <ListView
+        android:id="@+id/lv_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+
+    <ListView
+        android:id="@+id/lv_data_nascimento"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/lv_sexo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/lv_cpf"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+
+
+</LinearLayout>

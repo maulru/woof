@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"/>
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_maps"
+        android:icon="@drawable/maps"
+        android:title="Maps" />
+    <item
+        android:id="@+id/nav_historico"
+        android:icon="@drawable/historico"
+        android:title="Histórico" />
+
+
+    <item android:title="Empresa">
+        <menu>
+            <item
+                android:id="@+id/nav_parceiro"
+                android:icon="@drawable/parceriaicone"
+                android:title="Seja um Parceiro" />
+            <item
+                android:id="@+id/nav_minhas_empresas"
+                android:icon="@drawable/empresaicone"
+                android:title="Minhas Empresas" />
+        </menu>
+    </item>
+
+    <item android:title="Quem somos">
+        <menu>
+            <item
+                android:id="@+id/woof_site"
+                android:icon="@drawable/ic_botaocentral2"
+                android:title="Woof" />
+        </menu>
+    </item>
+</menu>

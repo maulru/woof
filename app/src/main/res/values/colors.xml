@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#40a5e4</color>
+    <color name="colorPrimaryDark">#3f48f7</color>
+    <color name="colorAccent">#fd01cb</color>
+    <color name="primaryColor">#40a5e4</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="cinzao">#9e9e9e</color>
+
+    <color name="color1">#4480da</color>
+    <color name="color2">#69006b</color>
+    <color name="color3">#fd9e32</color>
+    <color name="color4">#ff4d4d</color>
+
+
+    <color name="transparent">#f7a1e7</color>
+
+    <color name="marsala">#a349a3</color>
+    <color name="bandana">#f9c82d</color>
+    <color name="gradStop">#ed8e83</color>
+
+
+    <color name="bg">#EF5350</color>
+
+
+    <color name="flamingo">#FF5252</color>
+    <color name="seila">#607D8B</color>
+
+
+
+
+
+    <color name="black">#eab8b8</color>
+    <color name="cinza">#000000</color>
+    <color name="azul">#27ceda</color>
+    <color name ="corBAR">#47afc4</color>
+    <color name="botao1">#ed8e83</color>
+    <color name="botao2">#fac92c</color>
+    <color name="botao3">#252527</color>
+    <color name="Azul">#2178ae</color>
+    <color name="fundo_navigationdrawer">#4d4c4c</color>
+    <color name="Popup">#a3d1ed</color>
+
+    <color name="header">#f1a49b</color>
+    <color name="navigation">#b492b4</color>
+
+    <color name ="backgroundview">#E9E9E9</color>
+    <color name="tema_map">#000000</color>
+    <color name="vermelhoEscuro">#810000</color>
+
+    <color name="Branco">#FFFFFF</color>
+    <color name="amarelowoof">#fac92c</color>
+
+    <color name="cardfundo">#e67b9f</color>
+    <color name="card">#a28bfd</color>
+    <color name="card1">#78fae9</color>
+    <color name="cardfundo1">#ff5d54</color>
+    <color name="azul22">#8d74ff</color>
+    <color name="azul23">#05057e</color>
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+    <color name="strok">#e4e5ea</color>
+
+    <!--Indigo 500-->
+    <color name="primary_500">#3F51B5</color>
+    <!--Indigo 700-->
+    <color name="primary_700">#303F9F</color>
+    <!--Pink 500-->
+    <color name="accent_500">#E91E63</color>
+    <!--Pink 700-->
+    <color name="accent_700">#C2185B</color>
+    <color name="black_trans80">#33000000</color>
+
+    <color name="indicator_unselected">#4D000000</color>
+
+    <color name="card_azul">#2078ae</color>
+    <color name="blue_grey">#455A64</color>
+    <color name="red">#F44336</color>
+    <color name="pink">#E91E63</color>
+    <color name="purple">#9C27B0</color>
+    <color name="deep_purple">#673AB7</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="blue">#2196F3</color>
+    <color name="light_blue">#03A9F4</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="teal">#009688</color>
+    <color name="green">#4CAF50</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="lime">#CDDC39</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="amber">#FFC107</color>
+    <color name="orange">#FF9800</color>
+    <color name="deep_orange">#FF5722</color>
+    <color name="brown">#795548</color>
+
+
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="cyan_50">#E0F7FA</color>
+    <color name="amber_50">#FFF8E1</color>
+    <color name="purple_50">#F3E5F5</color>
+
+
+
+    <color name="bg_slider_screen1">#f4b241</color>
+    <color name="bg_slider_screen2">#ec0d11</color>
+    <color name="bg_slider_screen3">#203d8c</color>
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#ffa000</color>
+    <color name="dot_inactive_screen2">#008c57</color>
+    <color name="dot_inactive_screen3">#0e1e49</color>
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#f9c772</color>
+    <color name="dot_active_screen2">#74f7c5</color>
+    <color name="dot_active_screen3">#3a67e0</color>
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+    </array>
+
+
+
+    <color name="branco">#ffffff</color>
+    <color name="rosa">#ed8e83</color>
+    <color name="amarelo">#fac92c</color>
+    <color name="preto">#000</color>
+
+    <color name="signupColor">#066e8a</color>
+        <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+
+
+
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="grey">#E5E5E5</color>
+
+
+
+    <color name="cor1">#4480da</color>
+    <color name="cor2">#69006b</color>
+    <color name="cor3">#fd9e32</color>
+    <color name="cor4">#ff4d4d</color>
+
+
+
+    <color name="rosinhaaba">#ed8e6a</color>
+    <color name="rosinhaaba2">#ed8275</color>
+    <color name="amarelaaba">#fac971</color>
+</resources>

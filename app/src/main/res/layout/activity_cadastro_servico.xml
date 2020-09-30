@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.igorg.woof.views.CadastroServicoActivity">
+
+    <Button
+        android:id="@+id/btt_cadastrar_servico"
+        android:layout_width="211dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="24dp"
+        android:text="Inserir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_tipo_servico" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="32dp"
+        android:text="Cadastro de Serviço"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_servico_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="72dp"
+        android:text="Nome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/txt_valor_servico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="20dp"
+        android:text="Valor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_desc_servico" />
+
+    <TextView
+        android:id="@+id/txt_descricao_servico"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="8dp"
+        android:text="Descrição"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_servico_nome" />
+
+    <TextView
+        android:id="@+id/txt_tempo_servico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="20dp"
+        android:text="Tempo médio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_valor_servico" />
+
+    <TextView
+        android:id="@+id/txt_observacao_servico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="20dp"
+        android:text="Observações"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_tempo_servico" />
+
+    <TextView
+        android:id="@+id/txt_tipo_servico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="28dp"
+        android:text="Tipo de serviço"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_observacao_servico" />
+
+    <EditText
+        android:id="@+id/edit_servico_nome"
+        android:layout_width="214dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="96dp"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_servico_nome" />
+
+    <EditText
+        android:id="@+id/edit_desc_servico"
+        android:layout_width="213dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="96dp"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_descricao_servico" />
+
+    <EditText
+        android:id="@+id/edit_valor_servico"
+        android:layout_width="214dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="96dp"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_valor_servico" />
+
+    <EditText
+        android:id="@+id/edit_tempo_servico"
+        android:layout_width="211dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="96dp"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tempo_servico" />
+
+    <EditText
+        android:id="@+id/edit_observacao_servico"
+        android:layout_width="211dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="96dp"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_observacao_servico" />
+
+    <EditText
+        android:id="@+id/edit_tipo_servico"
+        android:layout_width="213dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="96dp"
+        android:background="@drawable/edittextshape"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tipo_servico" />
+</android.support.constraint.ConstraintLayout>
